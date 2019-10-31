@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+*
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  cursor: pointer !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container, #border, #hero, #Footer, #Logo, #blacking, #hitBox, #Gradient {
+  width: 728px;
+  height: 90px;
+}
+
+#container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+#border{
+  display: block;
+  border: rgb(145, 153, 153) 1px solid;
+  overflow: hidden;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#loader {
+  color: #FFFFFF;
+  font-family: 'MuseoRoundedEACustom', 'Verdana';
+  text-align: center;
+  line-height: 600px;
+}
+
+#content > div {
+  position: absolute;
+}
+
+#content.show {
+  display: block;
+}
+
+#content.hide, #loader.hide {
+  display: none;
+}
+
+#loader.show {
+  display: block;
+}
+
+#hero, #Footer, #Logo, #blacking, #hitBox {
+  cursor: hand;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#blacking {
+  background-color: black;
+  opacity: 0;
+}
+
+#cta_button, #ctaCopy{
+  width: 126px;
+  height: 22px;
+}
+
+#cta_button{
+  width: 154px;
+  height: 30px;
+  cursor: hand;
+  position: fixed;
+  top: 54px;
+  left: 550px;
+  background-image: url(../images/cta-bg-crimson.png);
+  background-repeat: no-repeat;
+}
+
+#Gradient {
+  width: 696px;
+  height: 578px;
+  cursor: hand;
+  position: fixed;
+  top: -180px;
+  left: -150px;
+}
+
+#GradientCompanion {
+  opacity:1;
+  cursor: hand;
+  width: 696px;
+  height: 578px;
+  position: fixed;
+  top: 44px;
+  left: -140px;
+}
+
+.message-text {
+  text-align: center;
+  position: fixed;
+  font-family: 'MuseoRoundedEACustom', 'Verdana';
+  color: #ffffff;
+  top: 13px;
+  left: 18px;
+  width: 312px;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+#ctaCopy {
+  position: absolute;
+  font-family: 'MuseoRoundedEACustom', 'Verdana';
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 30px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#tnc, #disclaimer {
+  font-family: 'MuseoRoundedEACustom', 'Verdana';
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 9px;
+  color: #ffffff;
+}
+
+#tnc {
+  text-align: center;
+  position: fixed;
+  top: 75px;
+  left: 18px;
+  width: 312px;
+}
+
+/* new disclaimer overlay styles */
+#disclaimer {
+  left: 10px;
+  top: 10px;
+  width: 290px;
+  letter-spacing: 0.35px;
+  line-height: 10px;
+}
+
+/*  SET CROSSBROWSER OPACITY  */
+#content, .message-text, #tnc, #disclaimer {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+
+  /* Netscape */
+  -moz-opacity: 0;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0;
+
+  /* Good browsers */
+  opacity: 0;
+}

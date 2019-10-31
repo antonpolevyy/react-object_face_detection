@@ -1,0 +1,21 @@
+
+var ftGUID_3960888="4146D772833923";
+var ftConfID_3960888="0";
+var ftParams_3960888="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-7285801058698924%26output%3Dhtml%26h%3D280%26slotname%3D5291168247%26adk%3D649328906%26adf%3D2993119108%26w%3D350%26fwrn%3D4%26fwrnh%3D100%26lmt%3D1570380886%26rafmt%3D1%26guci%3D2.2.0.0.2.2.0.0%26format%3D350x280%26url%3Dhttps%253A%252F%252Foverflowjs.com%252Fposts%252FFace-Detection-Using-JavaScript-API-face-apijs.html%26flash%3D0%26fwr%3D0%26fwrattr%3Dtrue%26rpe%3D1%26resp_fmts%3D3%26wgl%3D1%26adsid%3DChAI8Izq7QUQs865u8iqiMhLEkgA_OxE_9Gttwat08lnlPMADkPJOjZ6biv1bGENwBVyBvG6f3VURygqTwHQhYvRJI-KHBH84QPskNBGRZyEml5ewF2bv4tm-WY%26dt%3D1572541232364%26bpp%3D16%26bdt%3D612%26fdt%3D241%26idt%3D241%26shv%3Dr20191028%26cbv%3Dr20190131%26saldr%3Daa%26abxe%3D1%26prev_fmts%3D0x0%252C1110x280%252C350x280%26nras%3D1%26correlator%3D4918111297470%26frm%3D20%26pv%3D1%26ga_vid%3D346247212.1571795254%26ga_sid%3D1572541233%26ga_hid%3D1133898344%26ga_fc%3D0%26iag%3D0%26icsg%3D146610487551%26dssz%3D28%26mdo%3D0%26mso%3D0%26u_tz%3D6&cachebuster=353192.2913501533";
+var ftKeyword_3960888="";
+var ftCustom_3960888="";
+var ftSection_3960888="";
+var ftSegment_3960888="w2c,um2";
+var ftSegmentList_3960888=[{s:'w2c'},{s:'um2'}];
+var ftRuleMatch_3960888="0";
+var ftTimestamp_3960888="1572542427";
+var ftImp3960888 = {};
+ftImp3960888.privacy = "x";
+ftImp3960888.guidAge = "175";
+ftImp3960888.impID = "E4A58172-6A9E-3A84-A835-211A316B6255";
+ftImp3960888.duid = "FT:4146D772833923";
+
+ftImp3960888.ft_tpplid = "";
+ftImp3960888.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/396/3960888/2744681/js/j-3960888-2744681.js" id="ftscript_m3960888" name="ftscript_m3960888"></scr'+'ipt>');
